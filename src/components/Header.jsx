@@ -1,7 +1,9 @@
 function Header() {
   return (
-    <header>
-      <h1>Fast React Pizza Co.</h1>;
+    <header className="self-stretch">
+      <h1 className="text-primary uppercase text-center text-heading">
+        Fast React Pizza Co.
+      </h1>
     </header>
   );
 }

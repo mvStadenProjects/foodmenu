@@ -4,7 +4,7 @@ import Menu from "./components/Menu";
 
 function App() {
   return (
-    <div>
+    <div className="max-w-7xl my-0 mx-auto flex flex-col items-center gap-16">
       <Header />
       <Menu />
       <Footer />
